@@ -1,0 +1,88 @@
+    1  git config --global
+    2  git config --global user.name "Arminbod"
+    3  git config --global user.email "armin.bodaghkhani@gmail.com"
+    4  git config --global color.ui "auto"
+    5  git config --global core.editor "nano -w"
+    6  pwd
+    7  cd Desktop/
+    8  pwd
+    9  mkdir planets
+   10  cd planets
+   11  git init
+   12  ls
+   13  ls -a
+   14  git status
+   15  nano mars.txt
+   16  ls
+   17  cat mars.txt
+   18  git status
+   19  history | tail
+   20  history
+   21  history >>armin.txt
+   22  cat armin.txt
+   23  git add mars.txt
+   24  git status 
+   25  git commit
+   26  git commit -m "started notes about mars"
+   27  git status
+   28  nano mars.txt
+   29  git status
+   30  git diff
+   31  git commit -m "Added moon comment"
+   32  git add mars.txt
+   33  git commit -m "Added moon comment"
+   34  git status
+   35  git log
+   36  history >>armin.txt
+   37  nano mars.txt
+   38  git diff
+   39  git add mars.txt
+   40  git diff
+   41  git diff --staged
+   42  git log
+   43  git commit -m "Added Mummy note"
+   44  git diff --staged
+   45  git log -2
+   46  git log --oneline
+   47  git log --format=full
+   48  nano mars.txt
+   49  git status
+   50  git add mars.txt
+   51  git commit -m "Thoughts" --author="My Neighbour <neighbour@mystreet.ca>"
+   52  git log --format==full
+   53  git log --format=full
+   54  history >>armin1.txt
+   55  nano mars.txt
+   56  git diff
+   57  cat mars.txt
+   58  git diff HEAD mars.txt
+   59  git diff HEAD~1 mars.txt
+   60  git diff HEAD~1 Head~2
+   61  git log --oneline
+   62  git diff 95accd9 mars.txt
+   63  git statu
+   64  git status
+   65  git add mars.txt
+   66  git commit -m "Intentional typo"
+   67  git status
+   68  history >>armin2.txt
+   69  git log --online
+   70  git log --oneline
+   71  git checkout 38121c3 mars.txt
+   72  cat mars.txt
+   73  git log --oneline
+   74  history >>armin3.txt
+   75  git commit -m "went back to the Mummy note"
+   76  git log --oneline
+   77  mkdir results
+   78  ls
+   79  touch a.dat b.dat results/a.out reuslts/b.out
+   80  touch results/b.out
+   81  git status
+   82  nano .gitignore
+   83  ls
+   84  ls -a
+   85  git status
+   86  git add .gitignore
+   87  git commit -m "Added .gitignore file"
+   88  history >>armin4.txt
